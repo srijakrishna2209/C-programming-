@@ -5,11 +5,10 @@ int n,sum=0,digit,nsave;
 printf("Enter Value=");
 scanf("%d",&n);
 nsave=n;
-while(n!=0)
+for(n!=0;n=n/10)
 {
 digit=n%10;
 sum=sum+digit;
-n=n/10;
 }
 printf("Sum of digits=%d",sum);
 return 0;
