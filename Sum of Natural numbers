@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+int n;
+float sum;
+printf("N=");
+scanf("%d,%f",&n,&sum);
+sum=n*(n+1)/2;
+printf("%f",sum);
+return 0;
+}
